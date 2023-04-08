@@ -1,0 +1,59 @@
+{
+    "region": "us-east-1",
+    "cognito": {
+      "poolId": "us-east-1:9e9429c5-d8ee-40bc-941c-0cb680720fe4",
+      "appUserPoolClientId": "5c1oni2mp15gr4bq0ddln7qsfm",
+      "appDomainName": "https://travel-buddy.auth.us-east-1.amazoncognito.com"
+    },
+    "lex": {
+      "v2BotId": "U6FQYXVFLD",
+      "v2BotAliasId": "94ZJ4YBFAZ",
+      "v2BotLocaleId": "en_US",
+      "botName": "TravelBuddy",
+      "botAlias": "TravelBuddy",
+      "initialText": "Type 'Book Hotel', 'Book Flight', or 'Hire Car' to get started.",
+      "initialSpeechInstruction": "Say 'Book Hotel', 'Book Flight', or 'Hire Car' to get started.",
+      "initialUtterance": "",
+      "reInitSessionAttributesOnRestart": false,
+      "region": "us-east-1",
+      "retryOnLexPostTextTimeout": "false",
+      "retryCountPostTextTimeout": "1"
+    },
+    "ui": {
+      "parentOrigin": "localhost:8000",
+      "toolbarTitle": "Travel Buddy",
+      "toolbarLogo": "",
+      "positiveFeedbackIntent": "Thumbs up",
+      "negativeFeedbackIntent": "Thumbs down",
+      "helpIntent": "Help",
+      "enableLogin": false,
+      "forceLogin": false,
+      "AllowSuperDangerousHTMLInMessage": false,
+      "shouldDisplayResponseCardTitle": false,
+      "saveHistory": false,
+      "minButtonContent": "",
+      "hideInputFieldsForButtonResponse": false,
+      "pushInitialTextOnRestart": false,
+      "directFocusToBotInput": false,
+      "showDialogStateIcon": false,
+      "backButton": false,
+      "messageMenu": true,
+      "hideButtonMessageBubble": false,
+      "enableLiveChat": false
+    },
+    "connect": {
+      "contactFlowId" : "",
+      "instanceId" : "",
+      "apiGatewayEndpoint" : ""
+    },
+    "polly": {
+      "voiceId": "Salli"
+    },
+    "recorder": {
+      "preset": "speech_recognition"
+    },
+      "iframe": {
+        "iframeOrigin": "localhost:8000",
+        "iframeSrcPath": "/index#/?lexWebUiEmbed=true"
+      }
+}
